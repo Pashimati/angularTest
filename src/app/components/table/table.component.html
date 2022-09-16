@@ -1,0 +1,16 @@
+<div class="tab-content py-5" id="myTabContent">
+  <table class="table table-hover table-dark">
+    <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Acount</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let arr of filteredEmployees">
+      <td>{{arr.name.first + ' ' + arr.name.last}}</td>
+      <td>{{arr.amount}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

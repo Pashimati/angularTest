@@ -1,0 +1,55 @@
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a [routerLink]="[]"
+         [queryParams]="{income: '0'}"
+         class="nav-link"
+         id="income-tab"
+         data-id="income"
+         data-toggle="tab"
+         role="tab"
+      >
+        Income
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        [routerLink]="[]"
+        [queryParams]="{outcome: '1'}"
+        class="nav-link"
+        id="outcome-tab"
+        data-id="outcome"
+        data-toggle="tab"
+        role="tab"
+      >
+        Outcome
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        [routerLink]="[]"
+        [queryParams]="{loan: '2'}"
+        class="nav-link"
+        id="loans-tab"
+        data-id="loan"
+        data-toggle="tab"
+        role="tab"
+      >
+        Loans
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a [routerLink]="[]"
+         [queryParams]="{investment: '3'}"
+         class="nav-link"
+         id="invest-tab"
+         data-id="investment"
+         data-toggle="tab"
+         role="tab"
+      >
+        Investments
+      </a>
+    </li>
+  </ul>
+
+
